@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="54dp"
         android:background="#f51630">
@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:src="@drawable/location"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"/>
 
         <TextView
             android:id="@+id/title_xplay"
@@ -22,16 +23,15 @@
             android:text="@string/app_name"
             android:textSize="25sp"
             android:textColor="#ffffff"
-            android:layout_gravity="center"
-            android:paddingLeft="120dp"/>
+            android:layout_centerInParent="true"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/more_choose"
             android:src="@drawable/ellipsis"
-            android:layout_gravity="center"
-            android:paddingLeft="120dp"/>
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
 
-    </LinearLayout>
+    </RelativeLayout>
 </LinearLayout>

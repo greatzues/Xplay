@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/home_scroll_item"
+        android:background="@drawable/home_item_bottom_line">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/item_image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发吧,海贼王"
+            android:textSize="30sp"
+            android:id="@+id/item_title"
+            android:layout_toRightOf="@id/item_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏类型："
+            android:id="@+id/item_type"
+            android:layout_below="@id/item_title"
+            android:layout_toRightOf="@id/item_image"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:padding="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

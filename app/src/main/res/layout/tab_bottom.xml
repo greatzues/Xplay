@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_gravity="bottom"
         android:background="#FFF7F7F7">
 
         <RelativeLayout
@@ -22,7 +21,6 @@
                 android:layout_marginLeft="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/home_normal"
                 android:background="@drawable/tab_bottm_background"
                 />
 
@@ -48,7 +46,6 @@
                 android:layout_marginLeft="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/search_normal"
                 android:background="@drawable/tab_search_background"
                 />
 
@@ -74,8 +71,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/group_normal"
-                android:background="@drawable/tab_bottm_background"
+                android:background="@drawable/tab_group_background"
                 />
 
             <TextView
@@ -100,8 +96,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/user_normal"
-                android:background="@drawable/tab_bottm_background"
+                android:background="@drawable/tab_user_background"
                 />
 
             <TextView
