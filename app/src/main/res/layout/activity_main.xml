@@ -5,7 +5,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.zues.xplay.MainActivity">
 
-    <include layout="@layout/home_top" android:id="@+id/home_top" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#f51630"
+        />
 
     <include
         layout="@layout/tab_bottom"
@@ -18,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_below="@id/home_top"
+        android:layout_below="@id/toolbar"
         android:layout_above="@id/home_tab_bottom">
 
     </LinearLayout>
